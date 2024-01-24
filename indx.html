@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/d25cfcce1c.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <!-- header section -->
+   <!-- header section -->
+<div id="header">
+  <div class="container">
+    <nav>
+      <h1 class="logo">Pratik.J</h1>
+      <ul id="sidemenu">
+        <li><a href="#header">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#hero">Contact</a></li>
+        <li><a href="https://www.linkedin.com/feed/"><i class="fa-brands fa-linkedin"></i></a></li>
+        <i class="fa-solid fa-xmark" onclick="closeMenu()"></i>
+      </ul>
+      <i class="fa-solid fa-bars" onclick="openMenu()"></i>
+    </nav>
+    <div class="header-text">
+      <img src="images/logopratik.png" alt="">
+      <p>Frontend Web-Developer</p>
+      <h1>Pratik Jojode - <br />Frontend Developer</h1>
+    </div>
+  </div>
+</div>
+
+
+    <!-- about section -->
+
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="images/photo.jpeg" alt="" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              Hello! I'm Pratik Jojode, a second-year Computer Science student
+              at DY Patil Institute of Technology, Ambi, Pune. I have a strong
+              foundation in frontend technologies, having completed projects in
+              HTML, CSS, and JavaScript. Currently delving into backend
+              technologies to bring my projects to life, I'm enthusiastic about
+              learning and expanding my skills. Excitedly exploring the world of
+              React to create dynamic and engaging user interfaces. Let's
+              connect, learn, and build together!
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="openTab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="openTab('Expereince')">
+                Expereince
+              </p>
+              <p class="tab-links" onclick="openTab('Educations')">
+                Educations
+              </p>
+            </div>
+
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li>
+                  <span>HTML/CSS</span><br />Proficient in building responsive
+                  and accessible web pages using HTML and CSS.
+                </li>
+                <li>
+                  <span>JavaScript</span><br />Experience in developing
+                  interactive and dynamic user interfaces with JavaScript.
+                </li>
+                <li>
+                  <span>Node.js</span><br />Currently learning and exploring
+                  backend development with Node.js.
+                </li>
+                <li>
+                  <span>Express</span><br />Building RESTful APIs and exploring
+                  server-side development with Express.
+                </li>
+                <li>
+                  <span>React</span><br />Continuously enhancing skills in React
+                  for building modern and efficient user interfaces.
+                </li>
+                <li>
+                  <span>Databases</span><br />Learning about database management
+                  and integration with applications.
+                </li>
+              </ul>
+            </div>
+
+            <div class="tab-contents" id="Educations">
+              <ul>
+                <li>
+                  <span>Bachelor's in Computer Science</span><br />University of
+                  Example | Graduated 2020<br />Studied computer science with a
+                  focus on web development and user interface design.
+                </li>
+                <li>
+                  <span>Online Courses</span><br />Various Platforms |
+                  Ongoing<br />Continuously expanding knowledge through online
+                  courses in frontend technologies and design principles.
+                </li>
+                <li>
+                  <span>Web Development Bootcamp</span><br />Coding Academy |
+                  2016<br />Completed an intensive bootcamp covering the
+                  fundamentals of web development.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- services -->
+    <!-- services -->
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">My Services</h1>
+
+        <div class="services-list">
+          <!-- Service 1 -->
+          <div>
+            <i class="fa-solid fa-laptop-code"></i>
+            <h2>Web Development</h2>
+            <p>
+              Transform your ideas into functional and visually appealing
+              websites. From static pages to dynamic applications, I specialize
+              in HTML, CSS, JavaScript, Node.js, Express, React, and MongoDB to
+              create seamless and responsive web experiences. Let's build
+              something amazing together!
+            </p>
+            <a href="#">Learn more...</a>
+          </div>
+
+          <!-- Service 2 -->
+          <div>
+            <i class="fa-solid fa-desktop"></i>
+            <h2>Frontend Development</h2>
+            <p>
+              Craft intuitive user interfaces and engaging experiences with a
+              focus on frontend technologies. I specialize in HTML, CSS, and
+              JavaScript, ensuring your web applications are not only functional
+              but also visually appealing and user-friendly.
+            </p>
+            <a href="#">Learn more...</a>
+          </div>
+
+          <!-- Service 3 -->
+          <div>
+            <i class="fa-brands fa-node"></i>
+            <h2>Node.js Backend Development</h2>
+            <p>
+              Build robust server-side applications using Node.js and Express.
+              Whether it's creating APIs or handling data efficiently, I ensure
+              that your backend is as powerful as your frontend, providing a
+              seamless user experience.
+            </p>
+            <a href="#">Learn more...</a>
+          </div>
+
+          <!-- Service 4 -->
+          <div>
+            <i class="fa-brands fa-react"></i>
+            <h2>React Development</h2>
+            <p>
+              Develop dynamic and interactive user interfaces with React. I
+              bring your web applications to life, ensuring a modern and
+              efficient frontend that captivates your audience and enhances user
+              engagement.
+            </p>
+            <a href="#">Learn more...</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- portfolio work -->
+
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+          <!-- JavaScript Projects -->
+          <div class="work">
+            <img src="images/clock.png" alt="JS Clock" />
+            <div class="layer">
+              <h3>JS Clock</h3>
+              <p>
+                Implemented a dynamic clock using JavaScript, providing
+                real-time updates. This project showcases my skills in handling
+                time and animations.
+              </p>
+              <a href="#" target="_blank">View Project</a>
+            </div>
+          </div>
+
+          <!-- Image Gallery -->
+          <div class="work">
+            <img src="images/img gallery.png" alt="Image Gallery" />
+            <div class="layer">
+              <h3>Image Gallery</h3>
+              <p>
+                Designed and implemented an interactive image gallery, allowing
+                users to explore and enjoy a collection of curated images.
+              </p>
+              <a href="#" target="_blank">View Project</a>
+            </div>
+          </div>
+
+          <div class="work">
+            <img src="images/subh.png" alt="Image Gallery" />
+            <div class="layer">
+              <h3>Music Player</h3>
+              <p>
+                Crafted a personalized music player with a unique touch,
+                showcasing a blend of design creativity and technical finesse.
+                This custom music player project offers a tailored audio
+                experience, allowing users to control playback, create
+                playlists, and enjoy their favorite tunes in a distinct and
+                user-friendly interface.
+              </p>
+              <a href="#" target="_blank">View Project</a>
+            </div>
+          </div>
+
+          <div class="work">
+            <img src="images/CALNEDER.png" alt="JS Calendar" />
+            <div class="layer">
+              <h3>JS Calendar</h3>
+              <p>
+                Developed an interactive calendar using JavaScript, allowing
+                users to manage events and schedule tasks effortlessly.
+              </p>
+              <a href="#" target="_blank">View Project</a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/NOTES.png" alt="JS Notes" />
+            <div class="layer">
+              <h3>JS Notes</h3>
+              <p>
+                Created a note-taking application using JavaScript, providing a
+                simple and intuitive interface for users to jot down their
+                thoughts.
+              </p>
+              <a href="#" target="_blank">View Project</a>
+            </div>
+          </div>
+
+          <div class="work">
+            <img src="" alt="JS QR Code" />
+            <div class="layer">
+              <h3>JS QR Code</h3>
+              <p>
+                Implemented a QR code generator and scanner using JavaScript,
+                enhancing user interactions with digital content.
+              </p>
+              <a href="#" target="_blank">View Project</a>
+            </div>
+          </div>
+
+          <div class="work">
+            <img src="images/PASS.png" alt="JS Password Strength" />
+            <div class="layer">
+              <h3>JS Password Strength</h3>
+              <p>
+                Developed a password strength checker using JavaScript, ensuring
+                users create secure and robust passwords for online accounts.
+              </p>
+              <a href="#" target="_blank">View Project</a>
+            </div>
+          </div>
+
+          <div class="work">
+            <img src="images/cal2.png" alt="JS Password Strength" />
+            <div class="layer">
+              <h3>JS Password Strength</h3>
+              <p>
+                Designed and implemented a fully functional calculator project,
+                combining intuitive user interface elements with precise
+                mathematical operations. 
+              </p>
+              <a href="#" target="_blank">View Project</a>
+            </div>
+          </div>
+
+          <!-- YouTube Clone -->
+          <div class="work">
+            <img src="images/YT.png" alt="YouTube Clone" />
+            <div class="layer">
+              <h3>YouTube Clone</h3>
+              <p>
+                Created a YouTube clone, emphasizing video playback, user
+                channels, and a familiar user interface.
+              </p>
+              <a href="#" target="_blank">View Project</a>
+            </div>
+          </div>
+
+          <!-- E-commerce Project with Stripe Payment -->
+          <div class="work">
+            <img src="images/ECOM.png" alt="E-commerce with Stripe" />
+            <div class="layer">
+              <h3>E-commerce with Stripe</h3>
+              <p>
+                Developed an e-commerce website with Stripe payment integration,
+                ensuring secure and seamless online transactions.
+              </p>
+              <a href="#" target="_blank">View Project</a>
+            </div>
+          </div>
+
+          <!-- Sports Website -->
+          <div class="work">
+            <img src="images/SPORTS.png" alt="Sports Website" />
+            <div class="layer">
+              <h3>Sports Website</h3>
+              <p>
+                Created a sports website with real-time updates, scores, and
+                information for sports enthusiasts.
+              </p>
+              <a href="#" target="_blank">View Project</a>
+            </div>
+          </div>
+
+          <!-- University Website -->
+          <div class="work">
+            <img src="images/UNIVERCITY.png" alt="University Website" />
+            <div class="layer">
+              <h3>University Website</h3>
+              <p>
+                Designed and developed a comprehensive university website,
+                providing information about courses, admissions, and campus
+                life.
+              </p>
+              <a href="#" target="_blank">View Project</a>
+            </div>
+          </div>
+
+          <!-- Airbnb Clone -->
+          <div class="work">
+            <img src="images/AIRBNB.png" alt="Airbnb Clone" />
+            <div class="layer">
+              <h3>Airbnb Clone</h3>
+              <p>
+                Developed an Airbnb clone, focusing on property listings,
+                bookings, and a user-friendly interface for travelers.
+              </p>
+              <a href="#" target="_blank">View Project</a>
+            </div>
+          </div>
+
+          <!-- Netflix Clone -->
+          <div class="work">
+            <img src="images/NETFLIX.png" alt="Netflix Clone" />
+            <div class="layer">
+              <h3>Netflix Clone</h3>
+              <p>
+                Created a Netflix clone, providing users with a streaming
+                platform for movies and TV shows, with a sleek and responsive
+                design.
+              </p>
+              <a href="#" target="_blank">View Project</a>
+            </div>
+          </div>
+          <!-- Spotify Clone -->
+          <div class="work">
+            <img src="images/SPOTIFY.png" alt="Spotify Clone" />
+            <div class="layer">
+              <h3>Spotify Clone</h3>
+              <p>
+                Developed a Spotify clone, focusing on music playback, user
+                playlists, and a seamless listening experience.
+              </p>
+              <a href="#" target="_blank">View Project</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- contact form -->
+    <div id="hero">
+      <h3>Coming Soon!</h3>
+      <h1>OurBrand New<br />Website Is on its way!</h1>
+      <p>Subscribe for more details</p>
+      <form name="submit-to-google-sheet">
+        <input
+          type="email"
+          name="Email"
+          id=""
+          placeholder="Enter Your Email Id"
+        />
+
+        <button type="submit">
+          <i class="fa-solid fa-share"></i>
+        </button>
+      </form>
+
+      <span id="msg"></span>
+    </div>
+
+  
+
+
+    <!-- copyright -->
+
+
+    <div id="copyright">
+      <div class="container">
+        <p>&copy; 2024 Pratik Jojode. All rights reserved.</p>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
